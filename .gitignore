@@ -27,3 +27,6 @@ fider_schema.sql
 fider.sql
 .zed/debug.json
 WARP.md
+
+# OMC tool local state (not part of the project)
+.omc/

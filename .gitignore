@@ -30,3 +30,12 @@ WARP.md
 
 # OMC tool local state (not part of the project)
 .omc/
+
+# design-sync: staged scripts, build output, and machine state (durable
+# inputs under .design-sync/ — config.json, NOTES.md, previews/, shims/,
+# tsconfig.json — ARE committed)
+.ds-sync/
+ds-bundle/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules

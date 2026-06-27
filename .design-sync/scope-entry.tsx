@@ -1,0 +1,35 @@
+// Scope barrel for the design-sync core set (~25 Omada Beacon primitives).
+// This is cfg.entry — synth-entry discovery + the importable bundle come from
+// these re-exports. Keep it in sync with cfg.componentSrcMap.
+export { Button } from "@fider/components/common/Button"
+export { Form } from "@fider/components/common/form/Form"
+export { Input } from "@fider/components/common/form/Input"
+export { TextArea } from "@fider/components/common/form/TextArea"
+export { Select } from "@fider/components/common/form/Select"
+export { Checkbox } from "@fider/components/common/form/Checkbox"
+export { RadioButton } from "@fider/components/common/form/RadioButton"
+export { Field } from "@fider/components/common/form/Field"
+export { DisplayError } from "@fider/components/common/form/DisplayError"
+export { Message } from "@fider/components/common/Message"
+export { Toggle } from "@fider/components/common/Toggle"
+export { Avatar } from "@fider/components/common/Avatar"
+export { AvatarStack } from "@fider/components/common/AvatarStack"
+export { UserName } from "@fider/components/common/UserName"
+export { Dropdown } from "@fider/components/common/Dropdown"
+export { Modal } from "@fider/components/common/Modal"
+export { Loader } from "@fider/components/common/Loader"
+export { Hint } from "@fider/components/common/Hint"
+export { Pagination } from "@fider/components/common/Pagination"
+export { Icon } from "@fider/components/common/Icon"
+export { Markdown } from "@fider/components/common/Markdown"
+export { SocialSignInButton } from "@fider/components/common/SocialSignInButton"
+export { Money } from "@fider/components/common/Money"
+export { Moment } from "@fider/components/common/Moment"
+export { PageTitle } from "@fider/components/common/PageTitle"
+
+// Example screens (group "Pages") — full-page compositions of the primitives
+// above, authored for the design system. Importable as layout templates.
+export { FeedbackBoard } from "./pages/FeedbackBoard"
+export { PostDetail } from "./pages/PostDetail"
+export { SignIn } from "./pages/SignIn"
+export { Settings } from "./pages/Settings"

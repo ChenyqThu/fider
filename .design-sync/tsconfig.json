@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fider/*": ["../public/*"],
+      "@locale/*": ["../locale/*"],
+      "@lingui/macro": ["./shims/lingui-macro.ts"],
+      "@lingui/core/macro": ["./shims/lingui-macro.ts"],
+      "@lingui/react/macro": ["./shims/lingui-macro.ts"]
+    }
+  }
+}

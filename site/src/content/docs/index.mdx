@@ -1,0 +1,31 @@
+---
+title: Omada Beacon
+description: Omada 产品反馈平台 · 项目文档与设计提案
+template: splash
+hero:
+  tagline: Omada 多产品线内部产品反馈平台 · 基于 Fider 改造
+  actions:
+    - text: 项目总览
+      link: /01-overview/
+      icon: right-arrow
+    - text: 设计提案
+      link: /design/custom-forms-and-notion-sync/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="项目文档" icon="open-book">
+    总览、技术架构、路线图、数据库方案、可定制范围、部署、本地开发。
+  </Card>
+  <Card title="设计提案" icon="puzzle">
+    可配置表单 + 双 Site + Notion 双向同步、独立内容站架构。
+  </Card>
+  <Card title="差异化价值" icon="rocket">
+    让 Fider 承担反馈采集 / 投票 / 多租户基建，精力投向 AI 舆情分类摘要 + 内部系统打通。
+  </Card>
+  <Card title="技术栈" icon="setting">
+    Go（CQRS + Bus）· React 18 SSR · PostgreSQL · SCSS（自建组件，无 Tailwind）。
+  </Card>
+</CardGrid>

@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# astro
+.astro/
+
+# 构建期生成物（由 scripts/gen-content.mjs 从主仓 ../docs 生成，不入库）
+# 注意：index.mdx 是站点独有的 splash 首页（.mdx），下面 *.md 规则不会误伤，需入库
+/src/content/docs/*.md
+/src/content/docs/design/
+
+# logs
+*.log
+npm-debug.log*
+
+# environment
+.env
+.env.production
+.env.local
+
+# macOS
+.DS_Store

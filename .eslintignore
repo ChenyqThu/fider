@@ -2,3 +2,5 @@ dist/
 ssr.js
 node_modules/
 package-lock.json
+# docs site (Astro/Starlight sub-project, linted independently — not part of Fider UI)
+site/
